@@ -1,4 +1,4 @@
-Usage: 
+Simple usage: 
 
 1. Create a node_extensions/ folder in your project or module
 2. Create a module with the same name as the original module in the node_extensions/ folder and:
@@ -13,3 +13,15 @@ Usage:
 3. In your project: require('x')('module_name')
 
 Also works for core node modules. Explore the test/ folder.
+
+-------
+
+Advanced usage (recommended):
+
+1. Clone or fork this repo
+2. Rename it and x.js to whatever you like
+3. Create your own set of extensions in your_repo_dir/node_extensions/
+4. Update package.json, npm install, npm publish
+5. Use your extension set in your projects using var http = require('your_package_name')('http')
+
+Enjoy.
