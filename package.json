@@ -1,7 +1,7 @@
 {
   "name": "x",
   "description": "provides a way to extending modules functionality (lame)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "George Stagas <gstagas@gmail.com>",
   "engines": {
     "node": ">=0.4.0"
