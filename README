@@ -3,7 +3,7 @@ Usage:
 1. Create a node_extensions/ folder in your project or module
 2. Create a module with the same name as the original module in the node_extensions/ folder and:
   
-  module.exports(mod) {
+  module.exports = function(mod) {
 
     // ... extend 'mod' object here ...
 
