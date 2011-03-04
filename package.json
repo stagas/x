@@ -1,0 +1,17 @@
+{
+  "name": "x",
+  "description": "provides a way to extending modules functionality (lame)",
+  "version": "0.0.1",
+  "author": "George Stagas <gstagas@gmail.com>",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "main": "./x",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stagas/x"
+  },
+  "bugs": {
+    "web": "https://github.com/stagas/x/issues"
+  }
+}

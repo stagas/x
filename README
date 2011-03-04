@@ -1,0 +1,15 @@
+Usage: 
+
+1. Create a node_extensions/ folder in your project or module
+2. Create a module with the same name as the original module in the node_extensions/ folder and:
+  
+  module.exports(mod) {
+
+    // ... extend 'mod' object here ...
+
+    return mod
+  }
+
+3. In your project: require('x')('module_name')
+
+Also works for core node modules. Explore the test/ folder.
