@@ -24,4 +24,10 @@ Advanced usage (recommended):
 4. Update package.json, npm install, npm publish
 5. Use your extension set in your projects using var http = require('your_package_name')('http')
 
+-------
+
+Real life example: https://github.com/stagas/x-core
+
+-------
+
 Enjoy.
